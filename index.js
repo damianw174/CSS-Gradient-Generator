@@ -1,17 +1,12 @@
-var colorBlock1 = {
-    color:document.getElementById("color1"),
-    range:document.getElementById("range1"),
-    number:document.getElementById("number1"),
-}
 
-var colorBlock2 = {
-    color:document.getElementById("color1"),
-    range:document.getElementById("range1"),
-    number:document.getElementById("number1"),
-}
+ function setColors(){
+    var R = document.getElementById("range1").value
+    var G = document.getElementById("range2").value
+    var B = document.getElementById("range3").value
+    var palete = document.getElementById("colorPalete").style;
 
-var colorBlock2 = {
-    color:document.getElementById("color3"),
-    range:document.getElementById("range3"),
-    number:document.getElementById("number3"),
-}
+    palete.backgroundColor = "rgb("+R+","+G+","+B+")";
+    
+ }
+
+ 

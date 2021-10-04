@@ -11,23 +11,13 @@
 <body>
 
     <div class="colorBlock">
-        <input id="color1" type="color">
-        <input id="range1" type="range">
-        <input id="number1" type="number">
-    </div>
 
-    <div class="colorBlock">
-        <input id="color2" type="color">
-        <input id="range1" type="range">
-        <input id="number2" type="number">
+        <div id="colorPalete"></div>
+        <input id="range1" type="range" min="0" max="255" onchange="setColors()">
+        <input id="range2" type="range" min="0" max="255" onchange="setColors()">
+        <input id="range3" type="range" min="0" max="255" onchange="setColors()">
+        
     </div>
-
-    <div class="colorBlock">
-        <input id="color3" type="color">
-        <input id="range1" type="range">
-        <input id="number2" type="number">
-    </div>
-
 
     <script src="index.js"></script> 
    
