@@ -19,7 +19,12 @@ input[type=range]{
     border: none;
 }
 
+input[type=number]{
+    border: none;
+    width: 200px;
+}
+
 .colorBlock{
-    
+    float: left;
     width: 200px;
 }
