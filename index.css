@@ -17,3 +17,14 @@ input[type=range]{
     height: 100px;
     background-color: chocolate;
 }
+
+#cssCode{
+    width: 600px;
+    height: 100px;
+    clear: both;
+    display: block;
+    padding: 0;
+    margin:0;
+
+    text-align: center;
+}
